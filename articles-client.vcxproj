@@ -1,0 +1,747 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{10806677-2DEF-4BF5-9207-E4767053FC12}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <Optimization>Disabled</Optimization>
+    </ClCompile>
+    <Link>
+      <TargetMachine>MachineX86</TargetMachine>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <TargetMachine>MachineX86</TargetMachine>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="pg\node_modules\%40angular-devkit\build-angular\src\angular-cli-files\plugins\karma-context.html" />
+    <None Include="pg\node_modules\%40angular-devkit\build-angular\src\angular-cli-files\plugins\karma-debug.html" />
+    <None Include="pg\node_modules\%40schematics\angular\application\files\src\index.html" />
+    <None Include="pg\node_modules\%40schematics\angular\application\other-files\app.component.html" />
+    <None Include="pg\node_modules\%40schematics\angular\component\files\__name%40dasherize%40if-flat__\__name%40dasherize__.component.html" />
+    <None Include="pg\node_modules\ajv\lib\dot\coerce.def" />
+    <None Include="pg\node_modules\ajv\lib\dot\defaults.def" />
+    <None Include="pg\node_modules\ajv\lib\dot\definitions.def" />
+    <None Include="pg\node_modules\ajv\lib\dot\errors.def" />
+    <None Include="pg\node_modules\ajv\lib\dot\missing.def" />
+    <None Include="pg\node_modules\console-browserify\test\static\index.html" />
+    <None Include="pg\node_modules\crypto-browserify\example\index.html" />
+    <None Include="pg\node_modules\cuint\examples\uint32.html" />
+    <None Include="pg\node_modules\date-now\test\static\index.html" />
+    <None Include="pg\node_modules\faye-websocket\examples\sse.html" />
+    <None Include="pg\node_modules\faye-websocket\examples\ws.html" />
+    <None Include="pg\node_modules\handlebars\node_modules\uglify-js\tools\props.html" />
+    <None Include="pg\node_modules\har-validator\node_modules\ajv\lib\dot\coerce.def" />
+    <None Include="pg\node_modules\har-validator\node_modules\ajv\lib\dot\defaults.def" />
+    <None Include="pg\node_modules\har-validator\node_modules\ajv\lib\dot\definitions.def" />
+    <None Include="pg\node_modules\har-validator\node_modules\ajv\lib\dot\errors.def" />
+    <None Include="pg\node_modules\har-validator\node_modules\ajv\lib\dot\missing.def" />
+    <None Include="pg\node_modules\htmlparser2\test\documents\Attributes.html" />
+    <None Include="pg\node_modules\htmlparser2\test\documents\Basic.html" />
+    <None Include="pg\node_modules\http-proxy\coverage\lcov-report\http-proxy\common.js.html" />
+    <None Include="pg\node_modules\http-proxy\coverage\lcov-report\http-proxy\index.html" />
+    <None Include="pg\node_modules\http-proxy\coverage\lcov-report\http-proxy\passes\index.html" />
+    <None Include="pg\node_modules\http-proxy\coverage\lcov-report\http-proxy\passes\web-incoming.js.html" />
+    <None Include="pg\node_modules\http-proxy\coverage\lcov-report\http-proxy\passes\web-outgoing.js.html" />
+    <None Include="pg\node_modules\http-proxy\coverage\lcov-report\index.html" />
+    <None Include="pg\node_modules\http-proxy\coverage\lcov-report\lib\http-proxy.js.html" />
+    <None Include="pg\node_modules\http-proxy\coverage\lcov-report\lib\http-proxy\common.js.html" />
+    <None Include="pg\node_modules\http-proxy\coverage\lcov-report\lib\http-proxy\index.html" />
+    <None Include="pg\node_modules\http-proxy\coverage\lcov-report\lib\http-proxy\index.js.html" />
+    <None Include="pg\node_modules\http-proxy\coverage\lcov-report\lib\http-proxy\passes\index.html" />
+    <None Include="pg\node_modules\http-proxy\coverage\lcov-report\lib\http-proxy\passes\web-incoming.js.html" />
+    <None Include="pg\node_modules\http-proxy\coverage\lcov-report\lib\http-proxy\passes\web-outgoing.js.html" />
+    <None Include="pg\node_modules\http-proxy\coverage\lcov-report\lib\http-proxy\passes\ws-incoming.js.html" />
+    <None Include="pg\node_modules\http-proxy\coverage\lcov-report\lib\index.html" />
+    <None Include="pg\node_modules\istanbul-instrumenter-loader\node_modules\ajv\lib\dot\coerce.def" />
+    <None Include="pg\node_modules\istanbul-instrumenter-loader\node_modules\ajv\lib\dot\defaults.def" />
+    <None Include="pg\node_modules\istanbul-instrumenter-loader\node_modules\ajv\lib\dot\definitions.def" />
+    <None Include="pg\node_modules\istanbul-instrumenter-loader\node_modules\ajv\lib\dot\errors.def" />
+    <None Include="pg\node_modules\istanbul-instrumenter-loader\node_modules\ajv\lib\dot\missing.def" />
+    <None Include="pg\node_modules\js-base64\base64.html" />
+    <None Include="pg\node_modules\js-base64\test-moment\index.html" />
+    <None Include="pg\node_modules\js-base64\test\index.html" />
+    <None Include="pg\node_modules\jsbn\example.html" />
+    <None Include="pg\node_modules\karma\static\client.html" />
+    <None Include="pg\node_modules\karma\static\client_with_context.html" />
+    <None Include="pg\node_modules\karma\static\context.html" />
+    <None Include="pg\node_modules\karma\static\debug.html" />
+    <None Include="pg\node_modules\less\test\data\page.html" />
+    <None Include="pg\node_modules\less\test\sourcemaps\index.html" />
+    <None Include="pg\node_modules\loglevel\test\manual-test.html" />
+    <None Include="pg\node_modules\loglevel\test\test-qunit.html" />
+    <None Include="pg\node_modules\node-gyp\node_modules\ajv\lib\dot\coerce.def" />
+    <None Include="pg\node_modules\node-gyp\node_modules\ajv\lib\dot\defaults.def" />
+    <None Include="pg\node_modules\node-gyp\node_modules\ajv\lib\dot\definitions.def" />
+    <None Include="pg\node_modules\node-gyp\node_modules\ajv\lib\dot\errors.def" />
+    <None Include="pg\node_modules\node-gyp\node_modules\ajv\lib\dot\missing.def" />
+    <None Include="pg\node_modules\reflect-metadata\docs\index.html" />
+    <None Include="pg\node_modules\sax\examples\test.html" />
+    <None Include="pg\node_modules\sax\LICENSE-W3C.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\ajaxy_page.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\alerts.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\blank.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\bodyTypingTest.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\booleanAttributes.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\child\childPage.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\child\grandchild\grandchildPage.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\clickEventPage.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\clicks.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\ClickTest_testClicksASurroundingStrongTag.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\click_frames.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\click_jacker.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\click_out_of_bounds.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\click_out_of_bounds_overflow.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\click_rtl.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\click_source.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\click_tests\click_iframe.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\click_tests\click_in_iframe.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\click_tests\disabled_element.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\click_tests\disappearing_element.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\click_tests\google_map.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\click_tests\html5_submit_buttons.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\click_tests\issue5237.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\click_tests\issue5237_frame.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\click_tests\issue5237_target.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\click_tests\link_that_wraps.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\click_tests\mapped_page1.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\click_tests\mapped_page2.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\click_tests\mapped_page3.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\click_tests\overlapping_elements.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\click_tests\partially_overlapping_elements.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\click_tests\span_that_wraps.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\click_tests\submitted_page.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\click_tests\wrapped_overlapping_elements.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\click_too_big.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\click_too_big_in_frame.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\closeable_window.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\cn-test.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\colorPage.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\content-editable.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\cookies.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\coordinates_tests\element_in_frame.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\coordinates_tests\element_in_nested_frame.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\coordinates_tests\page_with_element_out_of_view.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\coordinates_tests\page_with_empty_element.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\coordinates_tests\page_with_fixed_element.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\coordinates_tests\page_with_hidden_element.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\coordinates_tests\page_with_invisible_element.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\coordinates_tests\page_with_transparent_element.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\coordinates_tests\simple_page.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\cssTransform.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\cssTransform2.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\document_write_in_onload.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\dragAndDropInsideScrolledDiv.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\dragAndDropTest.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\dragDropOverflow.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\draggableLists.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\droppableItems.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\dynamic.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\dynamicallyModifiedPage.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\errors.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\fixedFooterNoScroll.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\fixedFooterNoScrollQuirksMode.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\formPage.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\formSelectionPage.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\form_handling_js_submit.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\framePage3.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\frameScrollChild.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\frameScrollPage.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\frameScrollParent.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\frameset.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\framesetPage2.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\framesetPage3.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\frameWithAnimals.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\frame_switching_tests\bug4876.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\frame_switching_tests\bug4876_iframe.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\frame_switching_tests\deletingFrame.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\frame_switching_tests\deletingFrame_iframe.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\frame_switching_tests\deletingFrame_iframe2.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\globalscope.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\hidden.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\hidden_partially.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\html5Page.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\html5\status.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\idElements.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\iframeAtBottom.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\iframes.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\iframeWithAlert.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\iframeWithIframe.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\injectableContent.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\javascriptEnhancedForm.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\javascriptPage.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\keyboard_shortcut.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\key_logger.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\key_tests\remove_on_keypress.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\linked_image.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\locators_tests\boolean_attribute_selected.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\locators_tests\boolean_attribute_selected_html4.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\longContentPage.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\macbeth.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\map_visibility.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\messages.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\meta-redirect.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\missedJsReference.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\modal_dialogs\modalindex.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\modal_dialogs\modal_1.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\modal_dialogs\modal_2.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\modal_dialogs\modal_3.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\mouseOver.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\mousePositionTracker.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\nestedElements.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\overflow-body.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\overflow\x_auto_y_auto.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\overflow\x_auto_y_hidden.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\overflow\x_auto_y_scroll.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\overflow\x_hidden_y_auto.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\overflow\x_hidden_y_hidden.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\overflow\x_hidden_y_scroll.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\overflow\x_scroll_y_auto.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\overflow\x_scroll_y_hidden.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\overflow\x_scroll_y_scroll.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\pageWithOnBeforeUnloadMessage.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\pageWithOnLoad.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\pageWithOnUnload.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\page_with_link_to_slow_loading_page.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\proxy\page1.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\proxy\page2.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\proxy\page3.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\readOnlyPage.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\rectangles.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\resultPage.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\rich_text.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\safari\frames_benchmark.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\screen\screen.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\screen\screen_frame1.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\screen\screen_frame2.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\screen\screen_frames.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\screen\screen_iframes.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\screen\screen_too_long.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\screen\screen_x_long.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\screen\screen_x_too_long.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\screen\screen_y_long.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\screen\screen_y_too_long.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\scroll.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\scroll2.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\scroll3.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\scroll4.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\scroll5.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\scrolling_tests\frame_with_height_above_200.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\scrolling_tests\frame_with_height_above_2000.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\scrolling_tests\frame_with_nested_scrolling_frame.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\scrolling_tests\frame_with_nested_scrolling_frame_out_of_view.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\scrolling_tests\frame_with_small_height.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\scrolling_tests\page_with_double_overflow_auto.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\scrolling_tests\page_with_frame_out_of_view.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\scrolling_tests\page_with_nested_scrolling_frames.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\scrolling_tests\page_with_nested_scrolling_frames_out_of_view.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\scrolling_tests\page_with_non_scrolling_frame.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\scrolling_tests\page_with_partially_hidden_element.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\scrolling_tests\page_with_scrolling_frame.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\scrolling_tests\page_with_scrolling_frame_out_of_view.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\scrolling_tests\page_with_tall_frame.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\scrolling_tests\page_with_y_overflow_auto.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\scrolling_tests\target_page.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\selectableItems.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\selectPage.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\sessionCookie.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\sessionCookieDest.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\simpleTest.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\single_text_input.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\slowLoadingAlert.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\slowLoadingResourcePage.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\slow_loading_iframes.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\styledPage.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\tables.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\tinymce.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\transparentUpload.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\underscore.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\unicode_ltr.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\upload.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\userDefinedProperty.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\veryLargeCanvas.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\visibility-css.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\win32frameset.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\window_switching_tests\page_with_frame.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\window_switching_tests\simple_page.html" />
+    <None Include="pg\node_modules\selenium-webdriver\lib\test\data\xhtmlTest.html" />
+    <None Include="pg\node_modules\selenium-webdriver\node_modules\tmp\coverage\lcov-report\index.html" />
+    <None Include="pg\node_modules\selenium-webdriver\node_modules\tmp\coverage\lcov-report\lib\index.html" />
+    <None Include="pg\node_modules\selenium-webdriver\node_modules\tmp\coverage\lcov-report\lib\tmp.js.html" />
+    <None Include="pg\node_modules\serve-index\public\directory.html" />
+    <None Include="pg\node_modules\sockjs-client\node_modules\faye-websocket\examples\sse.html" />
+    <None Include="pg\node_modules\sockjs-client\node_modules\faye-websocket\examples\ws.html" />
+    <None Include="pg\node_modules\sockjs\examples\echo\index.html" />
+    <None Include="pg\node_modules\sockjs\examples\express-3.x\index.html" />
+    <None Include="pg\node_modules\sockjs\examples\express\index.html" />
+    <None Include="pg\node_modules\sockjs\examples\hapi\html\index.html" />
+    <None Include="pg\node_modules\sockjs\examples\koa\index.html" />
+    <None Include="pg\node_modules\sockjs\examples\multiplex\index.html" />
+    <None Include="pg\node_modules\sprintf-js\demo\angular.html" />
+    <None Include="pg\node_modules\through2\LICENSE.html" />
+    <None Include="pg\node_modules\tslib\tslib.es6.html" />
+    <None Include="pg\node_modules\tslib\tslib.html" />
+    <None Include="pg\node_modules\uglify-js\tools\props.html" />
+    <None Include="pg\node_modules\uglifyjs-webpack-plugin\node_modules\uglify-es\tools\props.html" />
+    <None Include="pg\node_modules\unique-filename\coverage\index.html" />
+    <None Include="pg\node_modules\unique-filename\coverage\__root__\index.html" />
+    <None Include="pg\node_modules\unique-filename\coverage\__root__\index.js.html" />
+    <None Include="pg\node_modules\uri-js\tests\test-es5-min.html" />
+    <None Include="pg\node_modules\uri-js\tests\test-es5.html" />
+    <None Include="pg\node_modules\vm-browserify\example\run\index.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\sax\examples\test.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\sax\LICENSE-W3C.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\ajaxy_page.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\alerts.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\blank.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\bodyTypingTest.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\booleanAttributes.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\child\childPage.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\child\grandchild\grandchildPage.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\clickEventPage.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\clicks.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\ClickTest_testClicksASurroundingStrongTag.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\click_frames.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\click_jacker.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\click_out_of_bounds.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\click_out_of_bounds_overflow.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\click_rtl.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\click_source.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\click_tests\click_iframe.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\click_tests\click_in_iframe.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\click_tests\disappearing_element.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\click_tests\google_map.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\click_tests\html5_submit_buttons.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\click_tests\issue5237.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\click_tests\issue5237_frame.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\click_tests\issue5237_target.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\click_tests\link_that_wraps.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\click_tests\mapped_page1.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\click_tests\mapped_page2.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\click_tests\mapped_page3.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\click_tests\overlapping_elements.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\click_tests\partially_overlapping_elements.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\click_tests\span_that_wraps.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\click_tests\submitted_page.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\click_tests\wrapped_overlapping_elements.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\click_too_big.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\click_too_big_in_frame.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\closeable_window.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\cn-test.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\colorPage.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\cookies.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\coordinates_tests\element_in_frame.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\coordinates_tests\element_in_nested_frame.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\coordinates_tests\page_with_element_out_of_view.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\coordinates_tests\page_with_empty_element.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\coordinates_tests\page_with_fixed_element.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\coordinates_tests\page_with_hidden_element.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\coordinates_tests\page_with_invisible_element.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\coordinates_tests\page_with_transparent_element.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\coordinates_tests\simple_page.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\cssTransform.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\cssTransform2.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\document_write_in_onload.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\dragAndDropInsideScrolledDiv.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\dragAndDropTest.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\dragDropOverflow.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\draggableLists.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\droppableItems.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\dynamic.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\dynamicallyModifiedPage.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\errors.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\fixedFooterNoScroll.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\fixedFooterNoScrollQuirksMode.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\formPage.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\formSelectionPage.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\form_handling_js_submit.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\framePage3.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\frameScrollChild.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\frameScrollPage.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\frameScrollParent.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\frameset.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\framesetPage2.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\framesetPage3.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\frameWithAnimals.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\frame_switching_tests\bug4876.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\frame_switching_tests\bug4876_iframe.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\frame_switching_tests\deletingFrame.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\frame_switching_tests\deletingFrame_iframe.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\frame_switching_tests\deletingFrame_iframe2.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\globalscope.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\hidden.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\hidden_partially.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\html5Page.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\html5\status.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\iframeAtBottom.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\iframes.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\iframeWithAlert.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\iframeWithIframe.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\injectableContent.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\javascriptEnhancedForm.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\javascriptPage.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\keyboard_shortcut.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\key_tests\remove_on_keypress.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\linked_image.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\locators_tests\boolean_attribute_selected.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\locators_tests\boolean_attribute_selected_html4.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\longContentPage.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\macbeth.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\map_visibility.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\messages.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\meta-redirect.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\missedJsReference.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\modal_dialogs\modalindex.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\modal_dialogs\modal_1.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\modal_dialogs\modal_2.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\modal_dialogs\modal_3.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\mouseOver.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\mousePositionTracker.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\nestedElements.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\overflow-body.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\overflow\x_auto_y_auto.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\overflow\x_auto_y_hidden.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\overflow\x_auto_y_scroll.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\overflow\x_hidden_y_auto.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\overflow\x_hidden_y_hidden.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\overflow\x_hidden_y_scroll.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\overflow\x_scroll_y_auto.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\overflow\x_scroll_y_hidden.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\overflow\x_scroll_y_scroll.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\pageWithOnBeforeUnloadMessage.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\pageWithOnLoad.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\pageWithOnUnload.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\page_with_link_to_slow_loading_page.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\proxy\page1.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\proxy\page2.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\proxy\page3.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\readOnlyPage.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\rectangles.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\resultPage.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\rich_text.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\safari\frames_benchmark.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\screen\screen.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\screen\screen_frame1.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\screen\screen_frame2.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\screen\screen_frames.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\screen\screen_iframes.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\screen\screen_too_long.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\screen\screen_x_long.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\screen\screen_x_too_long.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\screen\screen_y_long.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\screen\screen_y_too_long.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\scroll.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\scroll2.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\scroll3.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\scroll4.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\scroll5.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\scrolling_tests\frame_with_height_above_200.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\scrolling_tests\frame_with_height_above_2000.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\scrolling_tests\frame_with_nested_scrolling_frame.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\scrolling_tests\frame_with_nested_scrolling_frame_out_of_view.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\scrolling_tests\frame_with_small_height.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\scrolling_tests\page_with_double_overflow_auto.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\scrolling_tests\page_with_frame_out_of_view.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\scrolling_tests\page_with_nested_scrolling_frames.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\scrolling_tests\page_with_nested_scrolling_frames_out_of_view.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\scrolling_tests\page_with_non_scrolling_frame.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\scrolling_tests\page_with_scrolling_frame.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\scrolling_tests\page_with_scrolling_frame_out_of_view.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\scrolling_tests\page_with_tall_frame.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\scrolling_tests\page_with_y_overflow_auto.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\scrolling_tests\target_page.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\selectableItems.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\selectPage.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\sessionCookie.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\sessionCookieDest.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\simpleTest.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\slowLoadingAlert.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\slowLoadingResourcePage.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\slow_loading_iframes.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\styledPage.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\tables.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\tinymce.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\transparentUpload.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\underscore.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\unicode_ltr.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\upload.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\userDefinedProperty.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\veryLargeCanvas.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\visibility-css.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\win32frameset.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\window_switching_tests\page_with_frame.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\window_switching_tests\simple_page.html" />
+    <None Include="pg\node_modules\webdriver-js-extender\node_modules\selenium-webdriver\lib\test\data\xhtmlTest.html" />
+    <None Include="pg\node_modules\webpack-dev-server\client\live.html" />
+    <None Include="pg\node_modules\xxhashjs\examples\xxhash.html" />
+    <None Include="pg\src\app\about\about.component.html" />
+    <None Include="pg\src\app\app.component.html" />
+    <None Include="pg\src\index.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pg\node_modules\node-gyp\gyp\data\win\large-pdb-shim.cc" />
+    <ClCompile Include="pg\node_modules\node-gyp\src\win_delay_load_hook.cc" />
+    <ClCompile Include="pg\node_modules\node-sass\src\binding.cpp" />
+    <ClCompile Include="pg\node_modules\node-sass\src\create_string.cpp" />
+    <ClCompile Include="pg\node_modules\node-sass\src\custom_function_bridge.cpp" />
+    <ClCompile Include="pg\node_modules\node-sass\src\custom_importer_bridge.cpp" />
+    <ClCompile Include="pg\node_modules\node-sass\src\libsass\contrib\plugin.cpp" />
+    <ClCompile Include="pg\node_modules\node-sass\src\libsass\src\ast.cpp" />
+    <ClCompile Include="pg\node_modules\node-sass\src\libsass\src\ast_fwd_decl.cpp" />
+    <ClCompile Include="pg\node_modules\node-sass\src\libsass\src\backtrace.cpp" />
+    <ClCompile Include="pg\node_modules\node-sass\src\libsass\src\base64vlq.cpp" />
+    <ClCompile Include="pg\node_modules\node-sass\src\libsass\src\bind.cpp" />
+    <ClCompile Include="pg\node_modules\node-sass\src\libsass\src\c99func.c" />
+    <ClCompile Include="pg\node_modules\node-sass\src\libsass\src\cencode.c" />
+    <ClCompile Include="pg\node_modules\node-sass\src\libsass\src\check_nesting.cpp" />
+    <ClCompile Include="pg\node_modules\node-sass\src\libsass\src\color_maps.cpp" />
+    <ClCompile Include="pg\node_modules\node-sass\src\libsass\src\constants.cpp" />
+    <ClCompile Include="pg\node_modules\node-sass\src\libsass\src\context.cpp" />
+    <ClCompile Include="pg\node_modules\node-sass\src\libsass\src\cssize.cpp" />
+    <ClCompile Include="pg\node_modules\node-sass\src\libsass\src\emitter.cpp" />
+    <ClCompile Include="pg\node_modules\node-sass\src\libsass\src\environment.cpp" />
+    <ClCompile Include="pg\node_modules\node-sass\src\libsass\src\error_handling.cpp" />
+    <ClCompile Include="pg\node_modules\node-sass\src\libsass\src\eval.cpp" />
+    <ClCompile Include="pg\node_modules\node-sass\src\libsass\src\expand.cpp" />
+    <ClCompile Include="pg\node_modules\node-sass\src\libsass\src\extend.cpp" />
+    <ClCompile Include="pg\node_modules\node-sass\src\libsass\src\file.cpp" />
+    <ClCompile Include="pg\node_modules\node-sass\src\libsass\src\functions.cpp" />
+    <ClCompile Include="pg\node_modules\node-sass\src\libsass\src\inspect.cpp" />
+    <ClCompile Include="pg\node_modules\node-sass\src\libsass\src\json.cpp" />
+    <ClCompile Include="pg\node_modules\node-sass\src\libsass\src\lexer.cpp" />
+    <ClCompile Include="pg\node_modules\node-sass\src\libsass\src\listize.cpp" />
+    <ClCompile Include="pg\node_modules\node-sass\src\libsass\src\memory\SharedPtr.cpp" />
+    <ClCompile Include="pg\node_modules\node-sass\src\libsass\src\node.cpp" />
+    <ClCompile Include="pg\node_modules\node-sass\src\libsass\src\operators.cpp" />
+    <ClCompile Include="pg\node_modules\node-sass\src\libsass\src\output.cpp" />
+    <ClCompile Include="pg\node_modules\node-sass\src\libsass\src\parser.cpp" />
+    <ClCompile Include="pg\node_modules\node-sass\src\libsass\src\plugins.cpp" />
+    <ClCompile Include="pg\node_modules\node-sass\src\libsass\src\position.cpp" />
+    <ClCompile Include="pg\node_modules\node-sass\src\libsass\src\prelexer.cpp" />
+    <ClCompile Include="pg\node_modules\node-sass\src\libsass\src\remove_placeholders.cpp" />
+    <ClCompile Include="pg\node_modules\node-sass\src\libsass\src\sass.cpp" />
+    <ClCompile Include="pg\node_modules\node-sass\src\libsass\src\sass2scss.cpp" />
+    <ClCompile Include="pg\node_modules\node-sass\src\libsass\src\sass_context.cpp" />
+    <ClCompile Include="pg\node_modules\node-sass\src\libsass\src\sass_functions.cpp" />
+    <ClCompile Include="pg\node_modules\node-sass\src\libsass\src\sass_util.cpp" />
+    <ClCompile Include="pg\node_modules\node-sass\src\libsass\src\sass_values.cpp" />
+    <ClCompile Include="pg\node_modules\node-sass\src\libsass\src\source_map.cpp" />
+    <ClCompile Include="pg\node_modules\node-sass\src\libsass\src\subset_map.cpp" />
+    <ClCompile Include="pg\node_modules\node-sass\src\libsass\src\to_c.cpp" />
+    <ClCompile Include="pg\node_modules\node-sass\src\libsass\src\to_value.cpp" />
+    <ClCompile Include="pg\node_modules\node-sass\src\libsass\src\units.cpp" />
+    <ClCompile Include="pg\node_modules\node-sass\src\libsass\src\utf8_string.cpp" />
+    <ClCompile Include="pg\node_modules\node-sass\src\libsass\src\util.cpp" />
+    <ClCompile Include="pg\node_modules\node-sass\src\libsass\src\values.cpp" />
+    <ClCompile Include="pg\node_modules\node-sass\src\libsass\test\test_node.cpp" />
+    <ClCompile Include="pg\node_modules\node-sass\src\libsass\test\test_paths.cpp" />
+    <ClCompile Include="pg\node_modules\node-sass\src\libsass\test\test_selector_difference.cpp" />
+    <ClCompile Include="pg\node_modules\node-sass\src\libsass\test\test_specificity.cpp" />
+    <ClCompile Include="pg\node_modules\node-sass\src\libsass\test\test_subset_map.cpp" />
+    <ClCompile Include="pg\node_modules\node-sass\src\libsass\test\test_superselector.cpp" />
+    <ClCompile Include="pg\node_modules\node-sass\src\libsass\test\test_unification.cpp" />
+    <ClCompile Include="pg\node_modules\node-sass\src\sass_context_wrapper.cpp" />
+    <ClCompile Include="pg\node_modules\node-sass\src\sass_types\boolean.cpp" />
+    <ClCompile Include="pg\node_modules\node-sass\src\sass_types\color.cpp" />
+    <ClCompile Include="pg\node_modules\node-sass\src\sass_types\error.cpp" />
+    <ClCompile Include="pg\node_modules\node-sass\src\sass_types\factory.cpp" />
+    <ClCompile Include="pg\node_modules\node-sass\src\sass_types\list.cpp" />
+    <ClCompile Include="pg\node_modules\node-sass\src\sass_types\map.cpp" />
+    <ClCompile Include="pg\node_modules\node-sass\src\sass_types\null.cpp" />
+    <ClCompile Include="pg\node_modules\node-sass\src\sass_types\number.cpp" />
+    <ClCompile Include="pg\node_modules\node-sass\src\sass_types\string.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pg\node_modules\nan\nan.h" />
+    <ClInclude Include="pg\node_modules\nan\nan_callbacks.h" />
+    <ClInclude Include="pg\node_modules\nan\nan_callbacks_12_inl.h" />
+    <ClInclude Include="pg\node_modules\nan\nan_callbacks_pre_12_inl.h" />
+    <ClInclude Include="pg\node_modules\nan\nan_converters.h" />
+    <ClInclude Include="pg\node_modules\nan\nan_converters_43_inl.h" />
+    <ClInclude Include="pg\node_modules\nan\nan_converters_pre_43_inl.h" />
+    <ClInclude Include="pg\node_modules\nan\nan_define_own_property_helper.h" />
+    <ClInclude Include="pg\node_modules\nan\nan_implementation_12_inl.h" />
+    <ClInclude Include="pg\node_modules\nan\nan_implementation_pre_12_inl.h" />
+    <ClInclude Include="pg\node_modules\nan\nan_json.h" />
+    <ClInclude Include="pg\node_modules\nan\nan_maybe_43_inl.h" />
+    <ClInclude Include="pg\node_modules\nan\nan_maybe_pre_43_inl.h" />
+    <ClInclude Include="pg\node_modules\nan\nan_new.h" />
+    <ClInclude Include="pg\node_modules\nan\nan_object_wrap.h" />
+    <ClInclude Include="pg\node_modules\nan\nan_persistent_12_inl.h" />
+    <ClInclude Include="pg\node_modules\nan\nan_persistent_pre_12_inl.h" />
+    <ClInclude Include="pg\node_modules\nan\nan_private.h" />
+    <ClInclude Include="pg\node_modules\nan\nan_string_bytes.h" />
+    <ClInclude Include="pg\node_modules\nan\nan_typedarray_contents.h" />
+    <ClInclude Include="pg\node_modules\nan\nan_weak.h" />
+    <ClInclude Include="pg\node_modules\node-sass\src\callback_bridge.h" />
+    <ClInclude Include="pg\node_modules\node-sass\src\create_string.h" />
+    <ClInclude Include="pg\node_modules\node-sass\src\custom_function_bridge.h" />
+    <ClInclude Include="pg\node_modules\node-sass\src\custom_importer_bridge.h" />
+    <ClInclude Include="pg\node_modules\node-sass\src\libsass\include\sass.h" />
+    <ClInclude Include="pg\node_modules\node-sass\src\libsass\include\sass2scss.h" />
+    <ClInclude Include="pg\node_modules\node-sass\src\libsass\include\sass\base.h" />
+    <ClInclude Include="pg\node_modules\node-sass\src\libsass\include\sass\context.h" />
+    <ClInclude Include="pg\node_modules\node-sass\src\libsass\include\sass\functions.h" />
+    <ClInclude Include="pg\node_modules\node-sass\src\libsass\include\sass\values.h" />
+    <ClInclude Include="pg\node_modules\node-sass\src\libsass\include\sass\version.h" />
+    <ClInclude Include="pg\node_modules\node-sass\src\libsass\src\ast.hpp" />
+    <ClInclude Include="pg\node_modules\node-sass\src\libsass\src\ast_def_macros.hpp" />
+    <ClInclude Include="pg\node_modules\node-sass\src\libsass\src\ast_fwd_decl.hpp" />
+    <ClInclude Include="pg\node_modules\node-sass\src\libsass\src\b64\cencode.h" />
+    <ClInclude Include="pg\node_modules\node-sass\src\libsass\src\b64\encode.h" />
+    <ClInclude Include="pg\node_modules\node-sass\src\libsass\src\backtrace.hpp" />
+    <ClInclude Include="pg\node_modules\node-sass\src\libsass\src\base64vlq.hpp" />
+    <ClInclude Include="pg\node_modules\node-sass\src\libsass\src\bind.hpp" />
+    <ClInclude Include="pg\node_modules\node-sass\src\libsass\src\check_nesting.hpp" />
+    <ClInclude Include="pg\node_modules\node-sass\src\libsass\src\color_maps.hpp" />
+    <ClInclude Include="pg\node_modules\node-sass\src\libsass\src\constants.hpp" />
+    <ClInclude Include="pg\node_modules\node-sass\src\libsass\src\context.hpp" />
+    <ClInclude Include="pg\node_modules\node-sass\src\libsass\src\cssize.hpp" />
+    <ClInclude Include="pg\node_modules\node-sass\src\libsass\src\debug.hpp" />
+    <ClInclude Include="pg\node_modules\node-sass\src\libsass\src\debugger.hpp" />
+    <ClInclude Include="pg\node_modules\node-sass\src\libsass\src\emitter.hpp" />
+    <ClInclude Include="pg\node_modules\node-sass\src\libsass\src\environment.hpp" />
+    <ClInclude Include="pg\node_modules\node-sass\src\libsass\src\error_handling.hpp" />
+    <ClInclude Include="pg\node_modules\node-sass\src\libsass\src\eval.hpp" />
+    <ClInclude Include="pg\node_modules\node-sass\src\libsass\src\expand.hpp" />
+    <ClInclude Include="pg\node_modules\node-sass\src\libsass\src\extend.hpp" />
+    <ClInclude Include="pg\node_modules\node-sass\src\libsass\src\file.hpp" />
+    <ClInclude Include="pg\node_modules\node-sass\src\libsass\src\functions.hpp" />
+    <ClInclude Include="pg\node_modules\node-sass\src\libsass\src\inspect.hpp" />
+    <ClInclude Include="pg\node_modules\node-sass\src\libsass\src\json.hpp" />
+    <ClInclude Include="pg\node_modules\node-sass\src\libsass\src\kwd_arg_macros.hpp" />
+    <ClInclude Include="pg\node_modules\node-sass\src\libsass\src\lexer.hpp" />
+    <ClInclude Include="pg\node_modules\node-sass\src\libsass\src\listize.hpp" />
+    <ClInclude Include="pg\node_modules\node-sass\src\libsass\src\mapping.hpp" />
+    <ClInclude Include="pg\node_modules\node-sass\src\libsass\src\memory\SharedPtr.hpp" />
+    <ClInclude Include="pg\node_modules\node-sass\src\libsass\src\node.hpp" />
+    <ClInclude Include="pg\node_modules\node-sass\src\libsass\src\operation.hpp" />
+    <ClInclude Include="pg\node_modules\node-sass\src\libsass\src\operators.hpp" />
+    <ClInclude Include="pg\node_modules\node-sass\src\libsass\src\output.hpp" />
+    <ClInclude Include="pg\node_modules\node-sass\src\libsass\src\parser.hpp" />
+    <ClInclude Include="pg\node_modules\node-sass\src\libsass\src\paths.hpp" />
+    <ClInclude Include="pg\node_modules\node-sass\src\libsass\src\plugins.hpp" />
+    <ClInclude Include="pg\node_modules\node-sass\src\libsass\src\position.hpp" />
+    <ClInclude Include="pg\node_modules\node-sass\src\libsass\src\prelexer.hpp" />
+    <ClInclude Include="pg\node_modules\node-sass\src\libsass\src\remove_placeholders.hpp" />
+    <ClInclude Include="pg\node_modules\node-sass\src\libsass\src\sass.hpp" />
+    <ClInclude Include="pg\node_modules\node-sass\src\libsass\src\sass_context.hpp" />
+    <ClInclude Include="pg\node_modules\node-sass\src\libsass\src\sass_functions.hpp" />
+    <ClInclude Include="pg\node_modules\node-sass\src\libsass\src\sass_util.hpp" />
+    <ClInclude Include="pg\node_modules\node-sass\src\libsass\src\sass_values.hpp" />
+    <ClInclude Include="pg\node_modules\node-sass\src\libsass\src\source_map.hpp" />
+    <ClInclude Include="pg\node_modules\node-sass\src\libsass\src\subset_map.hpp" />
+    <ClInclude Include="pg\node_modules\node-sass\src\libsass\src\to_c.hpp" />
+    <ClInclude Include="pg\node_modules\node-sass\src\libsass\src\to_value.hpp" />
+    <ClInclude Include="pg\node_modules\node-sass\src\libsass\src\units.hpp" />
+    <ClInclude Include="pg\node_modules\node-sass\src\libsass\src\utf8.h" />
+    <ClInclude Include="pg\node_modules\node-sass\src\libsass\src\utf8\checked.h" />
+    <ClInclude Include="pg\node_modules\node-sass\src\libsass\src\utf8\core.h" />
+    <ClInclude Include="pg\node_modules\node-sass\src\libsass\src\utf8\unchecked.h" />
+    <ClInclude Include="pg\node_modules\node-sass\src\libsass\src\utf8_string.hpp" />
+    <ClInclude Include="pg\node_modules\node-sass\src\libsass\src\util.hpp" />
+    <ClInclude Include="pg\node_modules\node-sass\src\libsass\src\values.hpp" />
+    <ClInclude Include="pg\node_modules\node-sass\src\sass_context_wrapper.h" />
+    <ClInclude Include="pg\node_modules\node-sass\src\sass_types\boolean.h" />
+    <ClInclude Include="pg\node_modules\node-sass\src\sass_types\color.h" />
+    <ClInclude Include="pg\node_modules\node-sass\src\sass_types\error.h" />
+    <ClInclude Include="pg\node_modules\node-sass\src\sass_types\factory.h" />
+    <ClInclude Include="pg\node_modules\node-sass\src\sass_types\list.h" />
+    <ClInclude Include="pg\node_modules\node-sass\src\sass_types\map.h" />
+    <ClInclude Include="pg\node_modules\node-sass\src\sass_types\null.h" />
+    <ClInclude Include="pg\node_modules\node-sass\src\sass_types\number.h" />
+    <ClInclude Include="pg\node_modules\node-sass\src\sass_types\sass_value_wrapper.h" />
+    <ClInclude Include="pg\node_modules\node-sass\src\sass_types\string.h" />
+    <ClInclude Include="pg\node_modules\node-sass\src\sass_types\value.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="pg\node_modules\node-sass\src\libsass\res\resource.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
