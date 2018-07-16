@@ -32,13 +32,13 @@ Tip: To test that you have Node.js and npm correctly installed on your machine, 
 >2.	install the Angular CLI, in a terminal or command prompt type:
 npm install -g @angular/cli
 >3.	create a new Angular application by typing:
-ng new my-app
+ng new articles-client
 >4.	run the Angular application by navigating to the new folder and typing ng serve to start the web server and open the application in a browser, "Welcome to app!!" will be on http://localhost:4200 page
-cd my-app
+cd articles-client
 ng serve
->5.	open your Angular application in VS Code, open another terminal (or command prompt) and navigate to the my-app folder and type code .:
-cd my-app
-code .
+>5.	open your Angular application in VS Code, open another terminal (or command prompt) and navigate to the my-app folder and type code .
+>cd articles-client
+>code .
  
 >6.	work on 
 app.components.ts
